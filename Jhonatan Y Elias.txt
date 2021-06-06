@@ -1,6 +1,10 @@
 error 1
 error 2
+<<<<<<< HEAD
 elias
+=======
+Jhonatan
+>>>>>>> 72a5e575631bcddccae4c3ff5934c30d3c08b994
 error 4
 error 5
 error 6
