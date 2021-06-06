@@ -1,2 +1,6 @@
+<<<<<<< HEAD
 error elias
 
+=======
+Archivo Modificado 3
+>>>>>>> f6ff715cc2a53f8e0132b5c848685c60e8422c77
