@@ -1,2 +1,5 @@
 archivo modificado...
-error
+editar 1
+editar 2
+editar 3
+editar 4
