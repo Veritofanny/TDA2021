@@ -1,1 +1,1 @@
-codigo mod 5
+codigo mod 6
