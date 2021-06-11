@@ -21,6 +21,7 @@ class Portada extends BaseController
     public function registro()
     {
         echo view('header');
+        echo view('registro');
         echo view('footer');
     }
 }
