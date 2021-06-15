@@ -6,7 +6,7 @@ class Portada extends BaseController
 {
 	public function index()
 	{
-        echo view('header');
+        echo view('header2');
 		echo view('portada');
         echo view('footer');
 	}
