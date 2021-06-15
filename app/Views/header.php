@@ -7,9 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="<?php echo base_url('assets/bootstrap5/css/bootstrap.min.css') ?>">
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/dashboard/">
     <link rel="stylesheet" href="<?php echo base_url('assets/fontawesome/css/all.min.css') ?>">
     <link rel="stylesheet" href="<?php echo base_url('assets/css/signin.css') ?>">
     <script src="<?php echo base_url('assets/bootstrap5/js/bootstrap.min.js') ?>"></script>
+    
 </head>
 
 <body>
@@ -29,6 +31,9 @@
                     <ul class="navbar-nav me-auto mb-2 mb-md-0">
                         <li class="nav-item">
                             <a class="nav-link <?php echo $method=='index'?'active':''; ?>" aria-current="page" href="<?php echo base_url('public/Portada/index'); ?>"><i class="fas fa-home"></i> Portada</a>
+                        </li>
+                        <li class="nav-item text">
+                            <a class="nav-link <?php echo $method=='dashboard'?'active':''; ?>" href="<?php echo base_url('public/Portada/dashboard'); ?>"><i class="far fa-clipboard"></i> dashboard</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link <?php echo $method=='listado'?'active':''; ?>" href="<?php echo base_url('public/Portada/listado'); ?>"><i class="fas fa-list-ul"></i> Listado</a>
