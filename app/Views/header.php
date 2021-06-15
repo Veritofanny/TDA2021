@@ -91,7 +91,7 @@
                                     <li><a href="#" class="link-dark rounded">Overview</a></li>
                                     <li><a href="#" class="link-dark rounded">Weekly</a></li>
                                     <li><a href="#" class="link-dark rounded">Monthly</a></li>
-                                    <li><a href="#" class="link-dark rounded">Annually</a></li>
+                                    <li><a href="<?php echo base_url('public/Portada/dashboard'); ?>" class="link-dark rounded">grafico de elias</a></li>
                                 </ul>
                             </div>
                         </li>
