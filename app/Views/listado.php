@@ -7,7 +7,9 @@
     <title>Listado</title>
 </head>
 <body>
-    <h1>Listado</h1>
+    <h1>Listado
+    <i class="fa-solid fa-magnifying-glass"></i>
+    </h1>
     <table border=1>
     <tr>
     <th>sdfs</th>
