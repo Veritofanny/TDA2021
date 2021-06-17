@@ -34,7 +34,7 @@
                     Perfil</a>
                 <a href="<?php echo base_url('public/da/configuraciones')?>" class="d-block text-light p-3 border-0"> <i class="icon ion-md-settings lead mr-2"></i>
                     Configuración</a>
-                    <a href="<?php echo base_url('public/da/galeria')?>" class="d-block text-light p-3 border-0"><i class="icon ion-md-images lead mr-2"></i>
+                    <a href="<?php echo base_url('public/da/galeria')?>" class="d-block text-light p-3 border-0"><i class="icon ion-ios-images lead mr-2"></i>
                     galeria</a>
             </div>
         </div>
