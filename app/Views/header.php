@@ -90,8 +90,13 @@
                                 <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
                                     <li><a href="#" class="link-dark rounded">Overview</a></li>
                                     <li><a href="#" class="link-dark rounded">Weekly</a></li>
-                                    <li><a href="#" class="link-dark rounded">Monthly</a></li>
-                                    <li><a href="<?php echo base_url('public/Portada/dashboard'); ?>" class="link-dark rounded">grafico de elias</a></li>
+                                    <li>
+                                        <a href="#" class="link-dark rounded">Monthly</a>
+                                    </li>
+                                    <li>
+                                        <a href="<?php echo base_url('public/Portada/dashboard') ?>" class="link-dark rounded">Elias</a>
+                                    </li>
+
                                 </ul>
                             </div>
                         </li>
