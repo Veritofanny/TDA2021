@@ -8,11 +8,12 @@ class Portada extends BaseController
 	{
         echo view('header');
 		echo view('portada');
-        echo view('G-Carousel');
         echo view('G-Center');
+        echo view('asd');
         echo view('G-Acordion');
         echo view('G-Grafico');
         echo view("G-Cards");
+        echo view('cards-graficos');
         echo view('footer');
         
 	}
