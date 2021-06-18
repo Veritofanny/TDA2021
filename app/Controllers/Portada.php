@@ -8,28 +8,54 @@ class Portada extends BaseController
 	{
         echo view('header');
 		echo view('portada');
+        echo view('G-Center');
+        echo view('asd');
+        echo view('G-Acordion');
+        echo view('G-Grafico');
+        echo view("G-Cards");
+        echo view('cards-graficos');
         echo view('footer');
+        
 	}
 
     public function listado()
     {
         echo view('header');
-        echo view("listado");
+		echo view('portada');
+        echo view('G-Carousel');
+        echo view('G-Acordion');
+        echo view('G-Grafico');
         echo view('footer');
     }
 
     public function registro()
     {
         echo view('header');
-        echo view('registro');
+		echo view('portada');
+        echo view('G-Carousel');
+        echo view('G-Grafico');
         echo view('footer');
     }
     
     public function dashboard()
 	{
 		echo view('header');
-		echo view("dashboard");
-		echo view('footer');
+		echo view('portada');
+        echo view('G-Carousel');
+        echo view('G-Grafico');
+        echo view('footer');
+	}
+    public function Usuarios_ClintonArias()
+	{
+		echo view('header');
+		echo view('Usuarios_clintonarias');
+        echo view('footer');
+	}
+    public function grafico_ClintonArias()
+	{
+		echo view('header');
+		echo view('grafico_clintonarias');
+        echo view('footer');
 	}
 
     public function registrarse()
