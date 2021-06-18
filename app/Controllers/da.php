@@ -24,6 +24,11 @@ class Da extends BaseController
 	{
 		echo view('index').view('Vistaconfiguraciones');
 	}
+	public function galeria()
+	{
+		echo view('index').view('Vistagaleria');
+	}
+	
 }
 
 
