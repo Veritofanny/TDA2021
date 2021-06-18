@@ -77,6 +77,7 @@
                             <div class="collapse show" id="home-collapse">
                                 <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
                                     <li><a href="#" class="link-dark rounded">Usuarios</a></li>
+                                    <li><a href="<?php echo base_url('public/Portada/Usuarios_ClintonArias'); ?>" class="link-dark rounded">Usuarios por ClintonArias</a></li>
                                     <li><a href="#" class="link-dark rounded">Tablas</a></li>
                                     <li><a href="#" class="link-dark rounded">Reportes</a></li>
                                 </ul>
@@ -90,6 +91,7 @@
                                 <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
                                     <li><a href="#" class="link-dark rounded">Overview</a></li>
                                     <li><a href="#" class="link-dark rounded">Weekly</a></li>
+
                                     <li>
                                         <a href="#" class="link-dark rounded">Monthly</a>
                                     </li>
@@ -97,6 +99,9 @@
                                         <a href="<?php echo base_url('public/Portada/dashboard') ?>" class="link-dark rounded">Elias</a>
                                     </li>
 
+                                    <li><a href="#" class="link-dark rounded">Monthly</a></li>
+                                    <li><a href="<?php echo base_url('public/Portada/dashboard'); ?>" class="link-dark rounded">grafico de elias</a></li>
+                                    <li><a href="<?php echo base_url('public/Portada/grafico_ClintonArias'); ?>" class="link-dark rounded">Grafico de ClintonArias</a></li>
                                 </ul>
                             </div>
                         </li>
@@ -123,7 +128,7 @@
                                     <li><a href="#" class="link-dark rounded">New...</a></li>
                                     <li><a href="#" class="link-dark rounded">Profile</a></li>
                                     <li><a href="#" class="link-dark rounded">Settings</a></li>
-                                    <li><a href="#" class="link-dark rounded">Sign out</a></li>
+                                    <li><a href="<?php echo base_url('public/Portada/registrarse'); ?>" class="link-dark rounded">Registrarse</a></li>
                                 </ul>
                             </div>
                         </li>
@@ -132,3 +137,5 @@
             </nav>
 
             <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+
+
