@@ -118,7 +118,7 @@
                                     <li><a href="#" class="link-dark rounded">New...</a></li>
                                     <li><a href="#" class="link-dark rounded">Profile</a></li>
                                     <li><a href="#" class="link-dark rounded">Settings</a></li>
-                                    <li><a href="#" class="link-dark rounded">Sign out</a></li>
+                                    <li><a href="<?php echo base_url('public/Portada/registrarse'); ?>" class="link-dark rounded">Registrarse</a></li>
                                 </ul>
                             </div>
                         </li>

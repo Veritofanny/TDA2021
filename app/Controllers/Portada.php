@@ -31,4 +31,11 @@ class Portada extends BaseController
 		echo view("dashboard");
 		echo view('footer');
 	}
+
+    public function registrarse()
+	{
+		echo view('header');
+		echo view("registrarse");
+		echo view('footer');
+	}
 }
