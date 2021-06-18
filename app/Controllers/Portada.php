@@ -45,4 +45,16 @@ class Portada extends BaseController
         echo view('G-Grafico');
         echo view('footer');
 	}
+    public function Usuarios_ClintonArias()
+	{
+		echo view('header');
+		echo view('Usuarios_clintonarias');
+        echo view('footer');
+	}
+    public function grafico_ClintonArias()
+	{
+		echo view('header');
+		echo view('grafico_clintonarias');
+        echo view('footer');
+	}
 }
