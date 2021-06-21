@@ -107,14 +107,12 @@
                         </li>
                         <li class="mb-1">
                             <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#orders-collapse" aria-expanded="false">
-                                Orders
+                                Computadoras
                             </button>
                             <div class="collapse" id="orders-collapse">
                                 <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                                    <li><a href="#" class="link-dark rounded">New</a></li>
-                                    <li><a href="#" class="link-dark rounded">Processed</a></li>
-                                    <li><a href="#" class="link-dark rounded">Shipped</a></li>
-                                    <li><a href="#" class="link-dark rounded">Returned</a></li>
+                                    <li><a href="<?php echo base_url('public/Portada/formcomp'); ?>" class="link-dark rounded">Formulario</a></li>
+                                    <li><a href="<?php echo base_url('public/Portada/listcomp'); ?>" class="link-dark rounded">Listado</a></li>
                                 </ul>
                             </div>
                         </li>
