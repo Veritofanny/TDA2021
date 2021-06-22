@@ -48,7 +48,7 @@
                             <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="true">
                                 Docente
                             </button>
-                            <div class="collapse show" id="home-collapse">
+                            <div class="collapse" id="home-collapse">
                                 <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
                                     <li><a href="<?php echo base_url('public/Portada/docente_Perfil'); ?>" class="link-dark rounded">Perfil</a></li>
                                     <li><a href="<?php echo base_url('public/Portada/docente_Configuraciones'); ?>" class="link-dark rounded">Configuraciones</a></li>
