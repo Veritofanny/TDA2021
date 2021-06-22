@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="<?php echo base_url('assets/bootstrap5/css/bootstrap.min.css') ?>">
     <link rel="stylesheet" href="<?php echo base_url('assets/DataTables/datatables.min.css') ?>">
     <link rel="stylesheet" href="<?php echo base_url('assets/fontawesome/css/all.min.css') ?>">
-    <!--<link rel="stylesheet" href="<?php echo base_url('assets/css/signin.css') ?>">-->
+    <link rel="stylesheet" href="<?php echo base_url('assets/css/signin.css') ?>">
     <link rel="stylesheet" href="<?php echo base_url('assets/css/estilos.css') ?>">
     <link rel="stylesheet" href="<?php echo base_url('assets/css/sidebars.css') ?>">  
 </head>
