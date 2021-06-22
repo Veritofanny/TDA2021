@@ -657,4 +657,3 @@
             </tr>
         </tfoot>
     </table>
-</div>
