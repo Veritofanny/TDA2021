@@ -64,4 +64,18 @@ class Portada extends BaseController
 		echo view("registrarse");
 		echo view('footer');
 	}
+
+    
+    public function formularioCliente(){
+        echo view('header');
+        echo view('formularioCliente');
+        echo view('footer');
+    }
+
+    public function listadoCliente(){
+        echo view('header');
+        echo view('listadoCliente');
+        echo view('footer');
+    }
+
 }
