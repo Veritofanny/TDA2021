@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="<?php echo base_url('assets/fontawesome/css/all.min.css') ?>">
     <!--<link rel="stylesheet" href="<?php echo base_url('assets/css/signin.css') ?>">-->
     <link rel="stylesheet" href="<?php echo base_url('assets/css/estilos.css') ?>">
-    <link rel="stylesheet" href="<?php echo base_url('assets/css/sidebars.css') ?>">
+    <link rel="stylesheet" href="<?php echo base_url('assets/css/sidebars.css') ?>">  
 </head>
 
 <body>
@@ -113,10 +113,10 @@
                             </div>
                         </li>
                         <li class="mb-1">
-                            <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#orders-collapse" aria-expanded="false">
+                            <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#computadoras-collapse" aria-expanded="false">
                                 Computadoras
                             </button>
-                            <div class="collapse" id="orders-collapse">
+                            <div class="collapse" id="computadoras-collapse">
                                 <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
                                     <li><a href="<?php echo base_url('public/Portada/formcomp'); ?>" class="link-dark rounded">Formulario</a></li>
                                     <li><a href="<?php echo base_url('public/Portada/listcomp'); ?>" class="link-dark rounded">Listado</a></li>
