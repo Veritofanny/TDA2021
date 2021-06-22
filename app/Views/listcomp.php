@@ -177,9 +177,7 @@
     </div>
 </div>
 
-<div class="container d-flex justify-content-center flex-wrap flex-md-nowrap  pt-3 pb-2 mb-3 border-bottom">
-
-<table id="example" class="table-hover table table-dark" style="width:100%">
+<table id="example" class="display" style="width:100%">
         <thead>
             <tr>
                 <th>Name</th>
@@ -659,4 +657,4 @@
             </tr>
         </tfoot>
     </table>
-    </div>
+</div>
