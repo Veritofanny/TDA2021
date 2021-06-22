@@ -7,10 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Code4</title>
     <link rel="stylesheet" href="<?php echo base_url('assets/bootstrap5/css/bootstrap.min.css') ?>">
+    <link rel="stylesheet" href="<?php echo base_url('assets/DataTables/datatables.min.css') ?>">
     <link rel="stylesheet" href="<?php echo base_url('assets/fontawesome/css/all.min.css') ?>">
     <!--<link rel="stylesheet" href="<?php echo base_url('assets/css/signin.css') ?>">-->
     <link rel="stylesheet" href="<?php echo base_url('assets/css/estilos.css') ?>">
-    <link rel="stylesheet" href="<?php echo base_url('assets/css/sidebars.css') ?>">
+    <link rel="stylesheet" href="<?php echo base_url('assets/css/sidebars.css') ?>">  
 </head>
 
 <body>
@@ -43,17 +44,91 @@
                                 </ul>
                             </div>
                         </li>
-                        
                         <li class="mb-1">
-                            <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#orders-collapse" aria-expanded="false">
-                                Orders
+                            <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#dashboard-collapse" aria-expanded="false">
+                                Dashboard
                             </button>
-                            <div class="collapse" id="orders-collapse">
+                            <div class="collapse" id="dashboard-collapse">
                                 <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                                    <li><a href="#" class="link-dark rounded">New</a></li>
-                                    <li><a href="#" class="link-dark rounded">Processed</a></li>
-                                    <li><a href="#" class="link-dark rounded">Shipped</a></li>
-                                    <li><a href="#" class="link-dark rounded">Returned</a></li>
+                                    <li><a href="#" class="link-dark rounded">Overview</a></li>
+                                    <li><a href="#" class="link-dark rounded">Weekly</a></li>
+
+                                    <li>
+                                        <a href="#" class="link-dark rounded">Monthly</a>
+                                    </li>                                
+                                    <li><a href="#" class="link-dark rounded">Monthly</a></li>
+                                   <li><a href="<?php echo base_url('public/Portada/dashboard'); ?>" class="link-dark rounded">grafico de elias</a></li>
+                                    <li><a href="<?php echo base_url('public/Portada/grafico_ClintonArias'); ?>" class="link-dark rounded">Grafico de ClintonArias</a></li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li class="mb-1">
+                            <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#estudiante-collapse" aria-expanded="false">
+                                Estudiante
+                            </button>
+                            <div class="collapse" id="estudiante-collapse">
+                                <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                    <li><a href="<?php echo base_url('public/Portada/elias_formulario'); ?>" class="link-dark rounded">Formulario</a></li>
+                                    <li><a href="<?php echo base_url('public/Portada/elias_lista'); ?>" class="link-dark rounded">Lista</a></li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li class="mb-1">
+                            <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="true">
+                                Docente
+                            </button>
+                            <div class="collapse show" id="home-collapse">
+                                <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                    <li><a href="<?php echo base_url('public/Portada/docente_Perfil'); ?>" class="link-dark rounded">Perfil</a></li>
+                                    <li><a href="<?php echo base_url('public/Portada/docente_Configuraciones'); ?>" class="link-dark rounded">Configuraciones</a></li>
+                                    <li><a href="<?php echo base_url('public/Portada/docente_General'); ?>" class="link-dark rounded">General</a></li>
+                                    <li><a href="<?php echo base_url('public/Portada/docente_Apuntes'); ?>" class="link-dark rounded">Apuntes</a></li>
+                                    <li><a href="<?php echo base_url('public/Portada/docente_Formulario'); ?>" class="link-dark rounded">Formulario</a></li>
+                                    <li><a href="<?php echo base_url('public/Portada/docente_Tablas'); ?>" class="link-dark rounded">Tablas</a></li>
+                                    <li><a href="<?php echo base_url('public/Portada/docente_Modals'); ?>" class="link-dark rounded">Modals</a></li>
+                                    <li><a href="<?php echo base_url('public/Portada/docente_Tipografia'); ?>" class="link-dark rounded">Tipografia</a></li>
+                                    <li><a href="<?php echo base_url('public/Portada/docente_Iconos'); ?>" class="link-dark rounded">Iconos</a></li>
+                                    <li><a href="<?php echo base_url('public/Portada/docente_Graficos'); ?>" class="link-dark rounded">Graficos</a></li>
+                                    <li><a href="<?php echo base_url('public/Portada/docente_Mapas'); ?>" class="link-dark rounded">Mapas</a></li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <!--Productos-->
+
+                        <li class="mb-1">
+                            <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="true">
+                                productos
+                            </button>
+                            <div class="collapse show" id="home-collapse">
+                                <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                    <li><a href="<?php echo base_url('public/Portada/productos_form'); ?>" class="link-dark rounded">Formulario</a></li>
+                                    <li><a href="<?php echo base_url('public/Portada/productos_tabla'); ?>" class="link-dark rounded">Tabla</a></li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li class="mb-1">
+                            <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#cliente-collapse" aria-expanded="false">
+                                Clientes
+                            </button>
+                            <div class="collapse" id="cliente-collapse">
+                                <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                    <li><a href="<?php echo base_url('public/Portada/formularioCliente'); ?>" class="link-dark rounded">Formulario</a></li>
+                                    <li><a href="<?php echo base_url('public/Portada/listadoCliente'); ?>" class="link-dark rounded">Lista</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="mb-1">
+                            <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#computadoras-collapse" aria-expanded="false">
+                                Computadoras
+                            </button>
+                            <div class="collapse" id="computadoras-collapse">
+                                <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                    <li><a href="<?php echo base_url('public/Portada/formcomp'); ?>" class="link-dark rounded">Formulario</a></li>
+                                    <li><a href="<?php echo base_url('public/Portada/listcomp'); ?>" class="link-dark rounded">Lista</a></li>
                                 </ul>
                             </div>
                         </li>
