@@ -21,7 +21,6 @@ class Portada extends BaseController
     public function elias_formulario()
     {
         echo view('header');
-        echo view('eliascab');
         echo view('elias_formulario');
         echo view('footer');
     }
@@ -29,7 +28,6 @@ class Portada extends BaseController
     public function elias_lista()
     {
         echo view('header');
-        echo view('eliascab');
         echo view('elias_lista');
         echo view('footer');
     }
