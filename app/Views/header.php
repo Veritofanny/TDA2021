@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Code4</title>
     <link rel="stylesheet" href="<?php echo base_url('assets/bootstrap5/css/bootstrap.min.css') ?>">
     <link rel="stylesheet" href="<?php echo base_url('assets/fontawesome/css/all.min.css') ?>">
     <!--<link rel="stylesheet" href="<?php echo base_url('assets/css/signin.css') ?>">-->
@@ -14,48 +14,8 @@
 </head>
 
 <body>
-
-    <!--<header>
-        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">Carousel</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                <?php
-                $router = service('router');
-                $method = $router->methodName();
-                ?>
-                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
-                        <li class="nav-item">
-                            <a class="nav-link <?php echo $method == 'index' ? 'active' : ''; ?>" aria-current="page" href="<?php echo base_url('public/Portada/index'); ?>"><i class="fas fa-home"></i> Portada</a>
-                        </li>
-                        <li class="nav-item text">
-                            <a class="nav-link <?php echo $method == 'dashboard' ? 'active' : ''; ?>" href="<?php echo base_url('public/Portada/dashboard'); ?>"><i class="far fa-clipboard"></i> dashboard</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link <?php echo $method == 'listado' ? 'active' : ''; ?>" href="<?php echo base_url('public/Portada/listado'); ?>"><i class="fas fa-list-ul"></i> Listado</a>
-                        </li>
-                        <li class="nav-item text">
-                            <a class="nav-link <?php echo $method == 'registro' ? 'active' : ''; ?>" href="<?php echo base_url('public/Portada/registro'); ?>"><i class="far fa-clipboard"></i> Registro</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                        </li>
-                    </ul>
-                    <form class="d-flex">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Search</button>
-                    </form>
-                </div>
-            </div>
-        </nav>
-    </header>
-    -->
-
     <header class="navbar navbar-light sticky-top bg-light flex-md-nowrap p-1 shadow-sm">
-        <a class="navbar-brand col-md-3 col-lg-2 me-0 px-3" href="#"><i class="fas fa-laptop-code"></i> CODE 4</a>
+        <a class="navbar-brand col-md-3 col-lg-2 me-0 px-3" href="<?php echo base_url(); ?>"><i class="fas fa-laptop-code"></i> CODE 4</a>
         <button class="navbar-toggler position-absolute d-md-none collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -76,27 +36,14 @@
                             </button>
                             <div class="collapse show" id="home-collapse">
                                 <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                                    <li><a href="#" class="link-dark rounded">Usuarios</a></li>
+                                    <li class="active"><a href="<?php echo base_url('public/Portada/index'); ?>" class="link-dark rounded">Dashboard</a></li>
                                     <li><a href="<?php echo base_url('public/Portada/Usuarios_ClintonArias'); ?>" class="link-dark rounded">Usuarios por ClintonArias</a></li>
                                     <li><a href="#" class="link-dark rounded">Tablas</a></li>
                                     <li><a href="#" class="link-dark rounded">Reportes</a></li>
                                 </ul>
                             </div>
                         </li>
-                        <li class="mb-1">
-                            <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#dashboard-collapse" aria-expanded="false">
-                                Dashboard
-                            </button>
-                            <div class="collapse" id="dashboard-collapse">
-                                <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                                    <li><a href="#" class="link-dark rounded">Overview</a></li>
-                                    <li><a href="#" class="link-dark rounded">Weekly</a></li>
-                                    <li><a href="#" class="link-dark rounded">Monthly</a></li>
-                                    <li><a href="<?php echo base_url('public/Portada/dashboard'); ?>" class="link-dark rounded">grafico de elias</a></li>
-                                    <li><a href="<?php echo base_url('public/Portada/grafico_ClintonArias'); ?>" class="link-dark rounded">Grafico de ClintonArias</a></li>
-                                </ul>
-                            </div>
-                        </li>
+                        
                         <li class="mb-1">
                             <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#orders-collapse" aria-expanded="false">
                                 Orders
