@@ -107,8 +107,8 @@
                             </button>
                             <div class="collapse" id="estudiante-collapse">
                                 <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                                    <li><a href="#" class="link-dark rounded">Formulario</a></li>
-                                    <li><a href="#" class="link-dark rounded">Lista</a></li>
+                                    <li><a href="<?php echo base_url('public/Portada/elias_formulario'); ?>" class="link-dark rounded">Formulario</a></li>
+                                    <li><a href="<?php echo base_url('public/Portada/elias_lista'); ?>" class="link-dark rounded">Lista</a></li>
                                 </ul>
                             </div>
                         </li>
