@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="<?php echo base_url('assets/bootstrap5/css/bootstrap.min.css') ?>">
     <link rel="stylesheet" href="<?php echo base_url('assets/DataTables/datatables.min.css') ?>">
     <link rel="stylesheet" href="<?php echo base_url('assets/fontawesome/css/all.min.css') ?>">
-    <link rel="stylesheet" href="<?php echo base_url('assets/css/signin.css') ?>">
+    <!--<link rel="stylesheet" href="<?php echo base_url('assets/css/signin.css') ?>">-->
     <link rel="stylesheet" href="<?php echo base_url('assets/css/estilos.css') ?>">
     <link rel="stylesheet" href="<?php echo base_url('assets/css/sidebars.css') ?>">  
 </head>
@@ -114,7 +114,7 @@
                             </div>
                         </li>
 
-                        <!--<li class="mb-1">
+                        <li class="mb-1">
                             <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="true">
                                 Docente
                             </button>
@@ -133,7 +133,7 @@
                                     <li><a href="<?php echo base_url('public/Portada/docente_Mapas'); ?>" class="link-dark rounded">Mapas</a></li>
                                 </ul>
                             </div>
-                        </li>-->
+                        </li>
 
                         <li class="mb-1">
                             <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#cliente-collapse" aria-expanded="false">
