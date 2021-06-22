@@ -78,4 +78,70 @@ class Portada extends BaseController
         echo view('footer');
     }
 
+    public function docente_Perfil(){
+        echo view('header');
+        echo view('docente_Perfil');
+        echo view('footer');
+    }
+
+    public function docente_Configuraciones(){
+        echo view('header');
+        echo view('docente_Configuraciones');
+        echo view('footer');
+    }
+
+    public function docente_General(){
+        echo view('header');
+        echo view('docente_General');
+        echo view('footer');
+    }
+
+    public function docente_Apuntes(){
+        echo view('header');
+        echo view('docente_Apuntes');
+        echo view('footer');
+    }
+
+    public function docente_Formulario(){
+        echo view('header');
+        echo view('docente_Formulario');
+        echo view('footer');
+    }
+
+    public function docente_Tablas(){
+        echo view('header');
+        echo view('docente_Tablas');
+        echo view('footer');
+    }
+
+    public function docente_Modals(){
+        echo view('header');
+        echo view('docente_Modals');
+        echo view('footer');
+    }
+
+    public function docente_Tipografia(){
+        echo view('header');
+        echo view('docente_Tipografia');
+        echo view('footer');
+    }
+
+    public function docente_Iconos(){
+        echo view('header');
+        echo view('docente_Iconos');
+        echo view('footer');
+    }
+
+    public function docente_Graficos(){
+        echo view('header');
+        echo view('docente_Graficos');
+        echo view('footer');
+    }
+
+    public function docente_Mapas(){
+        echo view('header');
+        echo view('docente_Mapas');
+        echo view('footer');
+    }
+
 }
