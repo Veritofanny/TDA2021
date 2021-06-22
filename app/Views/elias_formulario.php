@@ -6,7 +6,7 @@
 </div>
 
 <selectiion class="container">
-    <div class="row">
+    <div class="form-row">
         <div class="col-8">
             <form action="">
                 <div class="row mt-2">
@@ -25,7 +25,7 @@
                         <input type="text" placeholder="apellido paterno" class="form-control">
                     </div>
                 </div> 
-                <div class="row mt-2 form-group">
+                <div class="row mt-2">
                     <div class="col-3">
                         <label for="" class="col-form-label">Apellido Materno</label>
                     </div>
@@ -33,7 +33,7 @@
                         <input type="text" placeholder="apellido materno" class="form-control">
                     </div>
                 </div>
-                <div class="row mt-2 form-group">
+                <div class="row mt-2">
                     <div class="col-3">
                         <label for="" class="col-form-label">DNI</label>
                     </div>
@@ -41,7 +41,7 @@
                         <input type="number" placeholder="dni" class="form-control">
                     </div>
                 </div>
-                <div class="row mt-2 form-group">
+                <div class="row mt-2">
                     <div class="col-3">
                         <label for="" class="col-form-label">Sexo</label>
                     </div>
@@ -56,7 +56,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="row mt-2 form-group">
+                <div class="row mt-2">
                     <div class="col-3">
                         <label for="" class="col-form-label">Carrera</label>
                     </div>
@@ -69,7 +69,7 @@
                         </select>
                     </div>
                 </div>
-                <div class="row mt-2 form-group">
+                <div class="row mt-2">
                     <div class="col-3">
                         <label for="" class="col-form-label">Codigo</label>
                     </div>
@@ -77,7 +77,7 @@
                         <input type="number" placeholder="ingrese codigo" class="form-control">
                     </div>
                 </div>
-                <div class="row mt-2 form-group">
+                <div class="row mt-2">
                     <div class="col-3">
                         <label for="" class="col-form-label">Correo</label>
                     </div>
