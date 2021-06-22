@@ -107,8 +107,19 @@
                             </button>
                             <div class="collapse" id="estudiante-collapse">
                                 <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                                    <li><a href="#" class="link-dark rounded">Formulario</a></li>
-                                    <li><a href="#" class="link-dark rounded">Lista</a></li>
+                                    <li><a href="<?php echo base_url('public/Portada/elias_formulario'); ?>" class="link-dark rounded">Formulario</a></li>
+                                    <li><a href="<?php echo base_url('public/Portada/elias_lista'); ?>" class="link-dark rounded">Lista</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="mb-1">
+                            <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#cliente-collapse" aria-expanded="false">
+                                Clientes
+                            </button>
+                            <div class="collapse" id="cliente-collapse">
+                                <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                    <li><a href="<?php echo base_url('public/Portada/formularioCliente'); ?>" class="link-dark rounded">Formulario</a></li>
+                                    <li><a href="<?php echo base_url('public/Portada/listadoCliente'); ?>" class="link-dark rounded">Lista</a></li>
                                 </ul>
                             </div>
                         </li>
@@ -119,7 +130,7 @@
                             <div class="collapse" id="computadoras-collapse">
                                 <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
                                     <li><a href="<?php echo base_url('public/Portada/formcomp'); ?>" class="link-dark rounded">Formulario</a></li>
-                                    <li><a href="<?php echo base_url('public/Portada/listcomp'); ?>" class="link-dark rounded">Listado</a></li>
+                                    <li><a href="<?php echo base_url('public/Portada/listcomp'); ?>" class="link-dark rounded">Lista</a></li>
                                 </ul>
                             </div>
                         </li>

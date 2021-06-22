@@ -18,6 +18,20 @@ class Portada extends BaseController
         
 	}
 
+    public function elias_formulario()
+    {
+        echo view('header');
+        echo view('elias_formulario');
+        echo view('footer');
+    }
+
+    public function elias_lista()
+    {
+        echo view('header');
+        echo view('elias_lista');
+        echo view('footer');
+    }
+
     public function listado()
     {
         echo view('header');
@@ -64,6 +78,7 @@ class Portada extends BaseController
 		echo view("registrarse");
 		echo view('footer');
 	}
+
     public function formcomp()
 	{
 		echo view('header');
@@ -76,4 +91,17 @@ class Portada extends BaseController
 		echo view("listcomp");
 		echo view('footer');
 	}
+    
+    public function formularioCliente(){
+        echo view('header');
+        echo view('formularioCliente');
+        echo view('footer');
+    }
+
+    public function listadoCliente(){
+        echo view('header');
+        echo view('listadoCliente');
+        echo view('footer');
+    }
+
 }
