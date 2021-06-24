@@ -33,10 +33,10 @@
                     <ul class="list-unstyled ps-0">
 
                         <li class="mb-1">
-                            <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#estudiante-collapse" aria-expanded="true">
+                            <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#estudiante-collapse" aria-expanded="false">
                                 Estudiante
                             </button>
-                            <div class="collapse show" id="estudiante-collapse">
+                            <div class="collapse" id="estudiante-collapse">
                                 <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
                                     <li><a href="<?php echo base_url('public/Estudiante/formulario'); ?>" class="link-dark rounded">Formulario</a></li>
                                     <li><a href="<?php echo base_url('public/Estudiante/lista'); ?>" class="link-dark rounded">Lista</a></li>
