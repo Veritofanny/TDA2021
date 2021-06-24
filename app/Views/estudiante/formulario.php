@@ -5,34 +5,34 @@
     </button>
 </div>
 
-<div class="container justify-content-center">
+<div class="container justify-content-center bg-gray">
     <form action="">
     
         <div class="row mb-3 " >
         
-            <div class="col-mb-12 shadow mx-auto py-3">
+            <div class="col-mb-12 border border-gray mx-auto py-3 bg-light">
             
                 <div class="row mb-3">
-                
-                    <div class="col-2">
-                        <label for="" class="label-form">Nombres</label>
+                    <div class="col-8">
+                        <div class="input-group">
+                            <label for="" class="label-form p-2">Nombres</label>
+                            <input type="text" class="form-control" required placeholder="nombres completos">
+                            <span class="input-group-text" id="btnGroupAddon2"><i class="fas fa-user-graduate"></i></i></span>
+                        </div>
                     </div>
-                    <div class="col-10">
-                        <input type="text" class="form-control" placeholder="nombres completos">
-                    </div>
-
+                    <div class="col-4 text-center"><h4>BIENVENIDO</h4></div>
                 </div>
 
                 <div class="row mb-3">
                 
                     <div class="col-2 ">
-                        <label for="" class="label-form">Apellidos</label>
+                        <label for="" class="label-form p-2">Apellidos</label>
                     </div>
                     <div class="col-5 ">
-                        <input type="text" class="form-control" placeholder="Apellido Paterno">
+                        <input type="text" class="form-control" required placeholder="Apellido Paterno">
                     </div>
                     <div class="col-5 ">
-                        <input type="text" class="form-control" placeholder="Apellido Materno">
+                        <input type="text" class="form-control" required placeholder="Apellido Materno">
                     </div>
 
                 </div>
@@ -42,7 +42,7 @@
                     <div class="row col-5">
 
                         <div class=" col-4">
-                            <label for="" class="form-label">DNI</label>
+                            <label for="" class="form-label p-2">DNI</label>
                         </div>
                         <div class="col-8">
                             <input type="number" class="form-control" placeholder="75555544">
@@ -52,7 +52,7 @@
                     <div class="row col-7">
 
                         <div class=" col-3">
-                            <label for="" class="label-form">Fecha Nac.</label>
+                            <label for="" class="label-form p-2">Fecha Nac.</label>
                         </div>
                         <div class=" col-3">
                             <select class="form-select" aria-label="Default select example">
@@ -143,20 +143,17 @@
                 <div class="row mb-3">
                 
                     <div class="row col-6">
-
-                        <div class="col-2">
-                            <label for="" class="label-form">Telefono</label>
-                        </div>
-                        <div class="col-10">
+                        <div class="input-group">
+                            <label for="" class="label-form p-2">Telefono</label>
+                            <div class="input-group-text" id="btnGroupAddon2"><i class="fas fa-mobile-alt"></i></div>
                             <input type="number" class="form-control" placeholder="940023077">
                         </div>
                     </div>
 
                     <div class="row col-6">
-                        <div class="col-2">
-                            <label for="" class="label-form">Correo</label>
-                        </div>
-                        <div class="col-10">
+                        <div class="input-group">
+                            <label for="" class="label-form m-2">Email</label>
+                            <div class="input-group-text" id="btnGroupAddon2"><i class="fas fa-at"></i></div>
                             <input type="email" class="form-control" placeholder="saileeuqohc@gmail.com">
                         </div>
                     </div>
