@@ -1,4 +1,14 @@
 <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3">
+    <div>
+        <h4>
+            Formulario de productos
+        </h4>
+    </div>
+</div>
+
+<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3">
+   
+           
             <form class="row g-3">
             <div class="col-md-4">
                 <label for="validationDefault01" class="form-label">First name</label>
