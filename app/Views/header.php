@@ -31,46 +31,15 @@
             <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
                 <div class="flex-shrink-0 p-3">
                     <ul class="list-unstyled ps-0">
-                        <li class="mb-1">
-                            <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="true">
-                                Principal
-                            </button>
-                            <div class="collapse show" id="home-collapse">
-                                <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                                    <li class="active"><a href="<?php echo base_url('public/Portada/index'); ?>" class="link-dark rounded">Dashboard</a></li>
-                                    <li><a href="<?php echo base_url('public/Portada/Usuarios_ClintonArias'); ?>" class="link-dark rounded">Usuarios por ClintonArias</a></li>
-                                    <li><a href="#" class="link-dark rounded">Tablas</a></li>
-                                    <li><a href="#" class="link-dark rounded">Reportes</a></li>
-                                </ul>
-                            </div>
-                        </li>
-                        <li class="mb-1">
-                            <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#dashboard-collapse" aria-expanded="false">
-                                Dashboard
-                            </button>
-                            <div class="collapse" id="dashboard-collapse">
-                                <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                                    <li><a href="#" class="link-dark rounded">Overview</a></li>
-                                    <li><a href="#" class="link-dark rounded">Weekly</a></li>
-
-                                    <li>
-                                        <a href="#" class="link-dark rounded">Monthly</a>
-                                    </li>                                
-                                    <li><a href="#" class="link-dark rounded">Monthly</a></li>
-                                   <li><a href="<?php echo base_url('public/Portada/dashboard'); ?>" class="link-dark rounded">grafico de elias</a></li>
-                                    <li><a href="<?php echo base_url('public/Portada/grafico_ClintonArias'); ?>" class="link-dark rounded">Grafico de ClintonArias</a></li>
-                                </ul>
-                            </div>
-                        </li>
 
                         <li class="mb-1">
-                            <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#estudiante-collapse" aria-expanded="false">
+                            <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#estudiante-collapse" aria-expanded="true">
                                 Estudiante
                             </button>
-                            <div class="collapse" id="estudiante-collapse">
+                            <div class="collapse show" id="estudiante-collapse">
                                 <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                                    <li><a href="<?php echo base_url('public/Portada/elias_formulario'); ?>" class="link-dark rounded">Formulario</a></li>
-                                    <li><a href="<?php echo base_url('public/Portada/elias_lista'); ?>" class="link-dark rounded">Lista</a></li>
+                                    <li><a href="<?php echo base_url('public/Estudiante/formulario'); ?>" class="link-dark rounded">Formulario</a></li>
+                                    <li><a href="<?php echo base_url('public/Estudiante/lista'); ?>" class="link-dark rounded">Lista</a></li>
                                 </ul>
                             </div>
                         </li>

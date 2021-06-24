@@ -18,19 +18,7 @@ class Portada extends BaseController
         
 	}
 
-    public function elias_formulario()
-    {
-        echo view('header');
-        echo view('elias_formulario');
-        echo view('footer');
-    }
-
-    public function elias_lista()
-    {
-        echo view('header');
-        echo view('elias_lista');
-        echo view('footer');
-    }
+    
 
     public function listado()
     {
