@@ -86,7 +86,7 @@
                                 <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
                                     <li><a href="<?php echo base_url('public/Portada/celulares_Inicio'); ?>" class="link-dark rounded">INICIO</a></li>
                                     <li><a href="<?php echo base_url('public/Portada/celulares_Formulario'); ?>" class="link-dark rounded">FORMULARIO</a></li>
-                                    <li><a href="<?php echo base_url('public/Portada/celulares_Tablas'); ?>" class="link-dark rounded">TABLAS</a></li>
+                                    <li><a href="<?php echo base_url('public/Portada/celulares_Tablas'); ?>" class="link-dark rounded">TABLA C.</a></li>
                                 </ul>
                             </div>
                         </li>
