@@ -164,4 +164,19 @@ class Portada extends BaseController
         echo view('productos/formulario');
         echo view('footer');
     }
+    public function celulares_Inicio(){
+        echo view('header');
+        echo view('celulares_Inicio');
+        echo view('footer');
+    }
+    public function celulares_Formulario(){
+        echo view('header');
+        echo view('celulares_Formulario');
+        echo view('footer');
+    }
+    public function celulares_Tablas(){
+        echo view('header');
+        echo view('celulares_Tablas');
+        echo view('footer');
+    }
 }
