@@ -78,18 +78,7 @@
                                 </ul>
                             </div>
                         </li>
-                        <li class="mb-1">
-                            <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#celulares-collapse" aria-expanded="true">
-                                celulares
-                            </button>
-                            <div class="collapse" id="celulares-collapse">
-                                <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                                    <li><a href="<?php echo base_url('public/Portada/celulares_Inicio'); ?>" class="link-dark rounded">INICIO</a></li>
-                                    <li><a href="<?php echo base_url('public/Portada/celulares_Formulario'); ?>" class="link-dark rounded">FORMULARIO</a></li>
-                                    <li><a href="<?php echo base_url('public/Portada/celulares_Tablas'); ?>" class="link-dark rounded">TABLA C.</a></li>
-                                </ul>
-                            </div>
-                        </li>
+                       
 
                         <li class="mb-1">
                             <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#cliente-collapse" aria-expanded="false">
@@ -110,6 +99,18 @@
                                 <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
                                     <li><a href="<?php echo base_url('public/Portada/formcomp'); ?>" class="link-dark rounded">Formulario</a></li>
                                     <li><a href="<?php echo base_url('public/Portada/listcomp'); ?>" class="link-dark rounded">Lista</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="mb-1">
+                            <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#celulares-collapse" aria-expanded="true">
+                                celulares
+                            </button>
+                            <div class="collapse" id="celulares-collapse">
+                                <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                    <li><a href="<?php echo base_url('public/Portada/celulares_Inicio'); ?>" class="link-dark rounded">INICIO</a></li>
+                                    <li><a href="<?php echo base_url('public/Portada/celulares_Formulario'); ?>" class="link-dark rounded">FORMULARIO</a></li>
+                                    <li><a href="<?php echo base_url('public/Portada/celulares_Tablas'); ?>" class="link-dark rounded">TABLA C.</a></li>
                                 </ul>
                             </div>
                         </li>

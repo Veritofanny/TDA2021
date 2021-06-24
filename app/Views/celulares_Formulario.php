@@ -6,9 +6,7 @@ body {
 </style>
 <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
     <h1 class="h2">COMPRA EN LINEA</h1>
-    <button type="button" class="btn btn-sm btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-    Pagar Aquí
-    </button>
+    
 
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered">
@@ -20,7 +18,7 @@ body {
         <div class="panel-heading">
         <div class="text-center">
         <h1 class="h3 mt-2 fw-bold">PAGO VIRTUAL</h1>
-        <i class="fas fa-laptop-code display-4 my-4"></i>
+        <i class="fas fa-shopping-cart display-4 my-4"></i>
         </div>
 
         <div class="row ">
@@ -65,7 +63,7 @@ body {
        <div class="row ">
        <div class="col-12">
                 <div class="input-group flex-nowrap">
-                    <input type="submit"  class="btn btn-warning btn-block col-12" value="PAGAR" />
+                    <input type="submit"  class="btn btn-success btn-block col-12" value="PAGAR" />
                 </div>
             </div>
               <div class="d-flex justify-content-between">
@@ -92,7 +90,7 @@ body {
             <div class="row mx-3 mb-3">
             <div class="col-6">
             <div class="mb-3 row">
-                <label for="inputPassword" class="col-sm-2 col-form-label">celular</label>
+            <label for="inputPassword5" class="form-label">Celular</label>
                 <div class="col-sm-10">
                
                 <select class="form-select border-primary" aria-label="Default select example">
@@ -105,16 +103,17 @@ body {
                     <option value="6">Apple iPhone 11 PRO 512GB Dorado</option>
                     <option value="5">Xiaomi Redmi Note 10 Pro 128GB Azul</option>
                     <option value="6">Samsung Galaxy S20 FE 128GB Azul</option>
+                    <option value=""></option>
                     </select>               
                 </div>
                 </div>
             </div>
             <div class="col-6">
             <div class="mb-3 row">
-                <label for="inputPassword" class="col-sm-2 col-form-label">Documento</label>
+            <label for="inputPassword5" class="form-label">Documento</label>
                 <div class="col-sm-10 d-flex px-4">
                 <select class="form-select mx-3 border-primary" aria-label="Default select example">
-                    <option selected>opcion</option>
+                    <option selected>Opcion</option>
                     <option value="1">DNI</option>
                     <option value="2">RUC</option>
                 </select>
@@ -124,6 +123,56 @@ body {
                 </div>
                 </div>
             </div>
+
+            <div class="col-6">
+            <div class="mb-3 row">
+            <label for="inputPassword5" class="form-label">Accesorios</label>
+                <div class="col-sm-10">
+               
+                <select class="form-select border-primary" aria-label="Default select example">
+                    <option selected>Apple Watch Series 5 40mm Gold</option>
+                    <option value="1">Apple Watch Series 5 40mm Silver</option>
+                    <option value="2">Apple Watch Series 5 44mm Space Gray</option>
+                    <option value="3">Huawei Band 4e Gris  </option>
+                    <option value="4">Huawei Band 4e Rosa</option>
+                    <option value="5">Skullcandy Audífonos Bluetooth Hesh 3 Wireless Negro</option>
+                    <option value="6">Skullcandy Audífonos Push True Wireless Earbuds V</option>
+                    <option value="5">Skullcandy Audífonos Push True Wireless Earbuds N</option>
+                    <option value="6">BlackSheep Audífonos Bluetooth In Ear TWEAKER G</option>
+                    <option value="7"></option>
+                    </select>               
+                </div>
+                </div>
+            </div>
+            <div class="col-6">
+                <label for="inputPassword5" class="form-label">Teléfono</label>
+                <div class="input-group flex-nowrap">
+                    <span class="input-group-text" id="addon-wrapping"><i class="fas fa-mobile-alt"></i></span>
+                    <input type="text" class="form-control border-primary" placeholder="Teléfono" aria-describedby="addon-wrapping" required>
+                </div>
+            </div>
+
+<div class="col-12 mt-12"></div>
+<div class="col-6 mt-6">
+    <div class="form-check">
+    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+    <label class="form-check-label border" for="flexRadioDefault1">
+        Prepago
+    </label>
+    
+    
+    </div>
+</div>
+<div class="col-6 mt-6">
+    <div class="form-check">
+    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+    <label class="form-check-label" for="flexRadioDefault1">
+        Postpago
+    </label>
+    
+    
+    </div>
+</div>
             
             <div class="col-6 my-2">
                 <label class="form-label">Nombres</label>
@@ -139,36 +188,7 @@ body {
                     <input type="text" class="form-control border-primary" placeholder="Lipa Quispe" aria-label="First name" aria-describedby="addon-wrapping" required>
                 </div>
             </div>
-
-            <div class="col-12">
-                <label for="inputPassword5" class="form-label">Direccion de envio</label>
-                <div class="input-group flex-nowrap">
-                    <span class="input-group-text" id="addon-wrapping"><i class="fas fa-location-arrow"></i></span>
-                    <input type="text" class="form-control border-primary" placeholder="Jr. Venezuela" aria-label="First name" aria-describedby="addon-wrapping" required>
-                </div>
-            </div>
-            <div class="col-12 mt-12"><br></div>
-
-            <div class="col-6 mt-6">
-                <div class="form-check">
-                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                <label class="form-check-label border" for="flexRadioDefault1">
-                    Prepago
-                </label>
-                
-                
-                </div>
-            </div>
-            <div class="col-6 mt-6">
-                <div class="form-check">
-                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                <label class="form-check-label" for="flexRadioDefault1">
-                    Postpago
-                </label>
-                
-                
-                </div>
-            </div>
+    
 
            
 
@@ -226,31 +246,21 @@ body {
                 </div>
             </div>
             <div class="col-6">
-                <label for="inputPassword5" class="form-label">Correo electrónico</label>
+                <label for="inputPassword5" class="form-label">Dirección de envio</label>
                 <div class="input-group flex-nowrap">
-                    <span class="input-group-text" id="addon-wrapping"><i class="far fa-envelope"></i></span>
-                    <input type="email" class="form-control border-primary" placeholder="@email.com" aria-describedby="addon-wrapping" required>
+                    <span class="input-group-text" id="addon-wrapping"><i class="fas fa-location-arrow"></i></span>
+                    <input type="text" class="form-control border-primary" placeholder="Jr. Venezuela" aria-label="First name" aria-describedby="addon-wrapping" required>
                 </div>
             </div>
             <div class="col-6">
-                <label for="inputPassword5" class="form-label">Teléfono</label>
-                <div class="input-group flex-nowrap">
-                    <span class="input-group-text" id="addon-wrapping"><i class="fas fa-mobile-alt"></i></span>
-                    <input type="text" class="form-control border-primary" placeholder="Teléfono" aria-describedby="addon-wrapping" required>
-                </div>
+              
             </div>
-
+          
             </div>
-
             
-
-
         </div>
-
-
-
         <div class=" col-2 mx-auto">
-            <button class="btn-lg btn-dark w-100" type="submit" data-bs-toggle="modal" data-bs-target="#exampleModal" >COMPRAR</button>
+            <button class="btn-lg btn-success w-100" type="submit" data-bs-toggle="modal" data-bs-target="#exampleModal" >COMPRAR</button>
            
     
         </div>
