@@ -4,6 +4,9 @@
 
 <div class="container justify-content-center">
 <form>
+
+
+
     <div class="row mb-1">
         <div class="col-md-8 shadow mx-auto py-3">
             <h5 class="border-bottom border-gray mx-2 mt-1 mb-2">Monitor</h5>
@@ -161,8 +164,8 @@
             </div>
         </div>
     </div>
-    <div class=" col-2 mx-auto mt-2">
-        <button class="btn btn-info w-100 fw-bold text-light" type="submit">Guardar</button>
-    </div> 
+        <div class=" col-2 mx-auto mt-2">
+            <button class="btn btn-info w-100 fw-bold text-light" type="submit">Guardar</button>
+        </div> 
     </form>
 </div>
