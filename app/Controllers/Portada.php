@@ -101,4 +101,16 @@ class Portada extends BaseController
         echo view('celulares_Tablas');
         echo view('footer');
     }
+    public function Lista_Ropa()
+	{
+		echo view('header');
+		echo view('Lista_Ropa');
+        echo view('footer');
+	}
+    public function Registrar_ropa()
+	{
+		echo view('header');
+		echo view('Registrar_ropa');
+        echo view('footer');
+	}
 }

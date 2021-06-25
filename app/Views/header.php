@@ -115,6 +115,17 @@
                                 </ul>
                             </div>
                         </li>
+                        <li class="mb-1">
+                            <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#ropa-collapse" aria-expanded="false">
+                                Ropas
+                            </button>
+                            <div class="collapse" id="ropa-collapse">
+                                <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                    <li><a href="<?php echo base_url('public/Portada/Registrar_ropa'); ?>" class="link-dark rounded">Formulario</a></li>
+                                    <li><a href="<?php echo base_url('public/Portada/Lista_Ropa'); ?>" class="link-dark rounded">Lista</a></li>
+                                </ul>
+                            </div>
+                        </li>
                         <li class="border-top my-3"></li>
                         <li class="mb-1">
                             <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#account-collapse" aria-expanded="false">
@@ -131,6 +142,7 @@
                         </li>
                     </ul>
                 </div>
+                
             </nav>
 
             <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
