@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="<?php echo base_url('assets/css/sidebars.css') ?>">
 
 
-    <link rel="stylesheet" href="<?php echo base_url('assets/css/theme1.css'); ?>">
+    
 
 </head>
 
