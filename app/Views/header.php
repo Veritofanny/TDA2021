@@ -11,8 +11,13 @@
     <link rel="stylesheet" href="<?php echo base_url('assets/fontawesome/css/all.min.css') ?>">
     <!--<link rel="stylesheet" href="<?php echo base_url('assets/css/signin.css') ?>">-->
     <link rel="stylesheet" href="<?php echo base_url('assets/css/estilos.css') ?>">
-    <link rel="stylesheet" href="<?php echo base_url('assets/css/sidebars.css') ?>">  
+    <link rel="stylesheet" href="<?php echo base_url('assets/css/sidebars.css') ?>">
+
+
+    <link rel="stylesheet" href="<?php echo base_url('assets/css/theme.css'); ?>">
+
 </head>
+
 
 <body>
     <header class="navbar navbar-light sticky-top bg-light flex-md-nowrap p-1 shadow-sm">
@@ -51,7 +56,7 @@
                             <div class="collapse" id="home-collapse">
                                 <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
                                     <li><a href="<?php echo base_url('public/Docente/formulario'); ?>" class="link-dark rounded">1. Formulario</a></li>
-                                    <li><a href="<?php echo base_url('public/Docente/formulario'); ?>" class="link-dark rounded">2. Lista</a></li>
+                                    <li><a href="<?php echo base_url('public/Docente/datatable'); ?>" class="link-dark rounded">2. DataTable</a></li>
                                     <li><a href="<?php echo base_url('public/Docente/perfil'); ?>" class="link-dark rounded">Perfil</a></li>
                                     <li><a href="<?php echo base_url('public/Docente/configuraciones'); ?>" class="link-dark rounded">Configuraciones</a></li>
                                     <li><a href="<?php echo base_url('public/Docente/general'); ?>" class="link-dark rounded">General</a></li>

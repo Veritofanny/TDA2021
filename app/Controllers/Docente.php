@@ -70,9 +70,9 @@ class Docente extends BaseController
         echo view('footer');
     }
 
-    public function lista(){
+    public function datatable(){
         echo view('header');
-        echo view('docente/lista');
+        echo view('docente/datatable');
         echo view('footer');
     }
 }
