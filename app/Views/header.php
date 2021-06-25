@@ -116,6 +116,17 @@
                             </div>
                         </li>
                         <li class="mb-1">
+                            <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#muebles-collapse" aria-expanded="false">
+                                Muebles
+                            </button>
+                            <div class="collapse" id="muebles-collapse">
+                                <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                    <li><a href="<?php echo base_url('public/Portada/formulariomuebles'); ?>" class="link-dark rounded">Formulario</a></li>
+                                    <li><a href="<?php echo base_url('public/Portada/tablamuebles'); ?>" class="link-dark rounded">Lista</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="mb-1">
                             <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#ropa-collapse" aria-expanded="false">
                                 Ropas
                             </button>

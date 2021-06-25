@@ -113,4 +113,14 @@ class Portada extends BaseController
 		echo view('Registrar_ropa');
         echo view('footer');
 	}
+    public function tablamuebles(){
+        echo view('header');
+        echo view('tablamuebles');
+        echo view('footer');
+    }
+    public function formulariomuebles(){
+        echo view('header');
+        echo view('formulariomuebles');
+        echo view('footer');
+    }
 }
