@@ -444,8 +444,7 @@
                       </div>
                     </div>
                     <div class="offset-md-4 col-md-8 col-12 mt-2">
-                      <button type="submit" class="btn btn-primary">Save
-                          Changes</button>
+                      <button type="submit" class="btn btn-primary">Guardar cambios</button>
                     </div>
                 </div>
 
