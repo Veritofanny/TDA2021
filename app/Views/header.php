@@ -11,15 +11,12 @@
     <link rel="stylesheet" href="<?php echo base_url('assets/fontawesome/css/all.min.css') ?>">
     <!--<link rel="stylesheet" href="<?php echo base_url('assets/css/signin.css') ?>">-->
     <link rel="stylesheet" href="<?php echo base_url('assets/css/estilos.css') ?>">
-<<<<<<< HEAD
+
     <link rel="stylesheet" href="<?php echo base_url('assets/css/sidebars.css') ?>">
 
 
-    <link rel="stylesheet" href="<?php echo base_url('assets/css/theme.css'); ?>">
+    <link rel="stylesheet" href="<?php echo base_url('assets/css/theme1.css'); ?>">
 
-=======
-    <link rel="stylesheet" href="<?php echo base_url('assets/css/sidebars.css') ?>"> 
->>>>>>> ecc7bcf0c1dd7dca68e84a631579a0717621585f
 </head>
 
 
