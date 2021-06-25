@@ -8,11 +8,11 @@
     <div class="modal-dialog modal-fullscreen-xl-down">
         <div class="modal-content mx-0">
                 <form class="m-0">
-                            <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom mx-2">
-                            <h5>Monitor</h5>
-                            <button type="button" class="btn btn-sm btn-close btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal" aria-label="Close">
+                            <div class="pt-3 pb-2 mb-3 mx-2">
+                            <h5 class="position-relative">Monitor</h5>
+                            <button type="button" class="btn btn-sm btn-close btn-outline-secondary position-absolute top-0 end-0 m-1" data-bs-toggle="modal" data-bs-target="#exampleModal" aria-label="Close">
                             </button>
-                            </div>
+        
                             
                             <div class="row px-4 mt-2">
                                 <div class="col-6">
@@ -177,6 +177,7 @@
     </div>
 </div>
 
+<div class="container justify-content-center">
 <table id="example" class="display" style="width:100%">
         <thead>
             <tr>
@@ -657,3 +658,5 @@
             </tr>
         </tfoot>
     </table>
+</div>
+
