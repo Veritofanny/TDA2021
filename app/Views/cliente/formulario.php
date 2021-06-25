@@ -1,6 +1,6 @@
 
 <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-    <h1 class="h2">Formulario</h1>
+    <h1 class="h2">Formulario de clientes</h1>
     <button type="button" class="btn btn-sm btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal">
     Pagar Aquí
     </button>
@@ -77,6 +77,8 @@
         </div>
         </div>
         </div>
+
+
 </div>
 
 
@@ -275,7 +277,6 @@
             <label for="inputPassword5" class="form-label">Observaciones</label>
             <div class="form-floating">
                 <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
-                <label for="floatingTextarea">Hola</label>
                 </div>
             </div>
         </div>
