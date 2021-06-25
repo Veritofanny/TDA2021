@@ -1,4 +1,4 @@
-<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3">
+<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
     <div>
         <h4>
             Formulario de productos:
@@ -8,8 +8,8 @@
 
 <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3">
    
-           
-            <form class="row g-3">
+    <div class="container">
+    <form class="row g-3">
             <div class="col-md-4">
                 <label for="validationDefault01" class="form-label"><i class="fab fa-slack-hash"></i> Nombre</label>
                 <input type="text" class="form-control" id="validationDefault01" placeholder="Gaseosa" required>
@@ -35,11 +35,11 @@
             </div>
             <div class="col-md-3">
                 <label for="validationDefault05" class="form-label"><i class="fas fa-hourglass-start"></i> Fecha de emision</label>
-                <input type="text" class="form-control" id="validationDefault05" required placeholder="12-12-12">
+                <input type="date" class="form-control" id="validationDefault05" >
             </div>
             <div class="col-md-3">
                 <label for="validationDefault05" class="form-label"> <i class="fas fa-hourglass-end"></i> Fecha de vencimiento</label>
-                <input type="text" class="form-control" id="validationDefault05" required placeholder="11-11-11">
+                <input type="date" class="form-control" id="validationDefault05">
             </div>
             <div class="col-12">
                 <div class="form-check">
@@ -53,4 +53,6 @@
                 <button class="btn btn-dark" type="submit">Guardar producto</button>
             </div>
             </form>
+    </div>   
+            
 </div>

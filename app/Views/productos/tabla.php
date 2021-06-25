@@ -1,4 +1,4 @@
-<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3">
+<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
         <h4>
             Tabla de productos:
         </h4>
@@ -35,7 +35,7 @@
             </div>
             <div class="col-md-3">
                 <label for="validationDefault03" class="form-label"><i class="fab fa-slack-hash"></i> Precio (S/.)</label>
-                <input type="text" class="form-control" id="validationDefault03" required placeholder=1,00">
+                <input type="text" class="form-control" id="validationDefault03" required placeholder="1,00">
             </div>
             <div class="col-md-3">
                 <label for="validationDefault03" class="form-label"><i class="fas fa-truck-loading"></i> Cantidad</label>
@@ -43,11 +43,11 @@
             </div>
             <div class="col-md-3">
                 <label for="validationDefault05" class="form-label"><i class="fas fa-hourglass-start"></i> Fecha de emision</label>
-                <input type="text" class="form-control" id="validationDefault05" required placeholder="12-12-12">
+                <input type="date" class="form-control" id="validationDefault05" >
             </div>
             <div class="col-md-3">
                 <label for="validationDefault05" class="form-label"> <i class="fas fa-hourglass-end"></i> Fecha de vencimiento</label>
-                <input type="text" class="form-control" id="validationDefault05" required placeholder="11-11-11">
+                <input type="date" class="form-control" id="validationDefault05">
             </div>
             <div class="col-12">
                 <div class="form-check">
@@ -76,7 +76,8 @@
 
 </div>
 
-<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 col-light" style="margin-left:80px">
+<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 col-light" style="margin-left:auto">
+    <div class="container">
     <table id="example" class="table table-light" style="width:100%,">
             <thead>
                 <tr>
@@ -335,6 +336,8 @@
                 </tr>
             </tfoot>
         </table>
+    
+    </div>
 </div>
 
 
