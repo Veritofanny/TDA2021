@@ -108,8 +108,8 @@
                             </button>
                             <div class="collapse" id="computadoras-collapse">
                                 <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                                    <li><a href="<?php echo base_url('public/Portada/formcomp'); ?>" class="link-dark rounded">Formulario</a></li>
-                                    <li><a href="<?php echo base_url('public/Portada/listcomp'); ?>" class="link-dark rounded">Lista</a></li>
+                                    <li><a href="<?php echo base_url('public/Computadoras/formulario'); ?>" class="link-dark rounded">Formulario</a></li>
+                                    <li><a href="<?php echo base_url('public/Computadoras/lista'); ?>" class="link-dark rounded">Lista</a></li>
                                 </ul>
                             </div>
                         </li>

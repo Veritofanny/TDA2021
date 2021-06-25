@@ -8,9 +8,9 @@
     <div class="modal-dialog modal-fullscreen-xl-down">
         <div class="modal-content mx-0">
                 <form class="m-0">
-                            <div class="pt-3 pb-2 mb-3 mx-2">
+                            <div class="pt-3 pb-0 mb-0 mx-2">
                             <h5 class="position-relative">Monitor</h5>
-                            <button type="button" class="btn btn-sm btn-close btn-outline-secondary position-absolute top-0 end-0 m-1" data-bs-toggle="modal" data-bs-target="#exampleModal" aria-label="Close">
+                            <button type="button" class="btn btn-sm btn-close btn-outline-secondary position-absolute top-0 end-0 m-2" data-bs-toggle="modal" data-bs-target="#exampleModal" aria-label="Close">
                             </button>
         
                             
@@ -177,37 +177,50 @@
     </div>
 </div>
 
-<div class="container justify-content-center px-5">
-<table id="example" class="display table table-light table-striped table-hover" style="width:100%">
-        <thead class="bg-secondary">
-            <tr class="table-dark">
+<div class="container justify-content-center px-3 py-3">
+<table id="example" class="display table table-striped table-hover shadow" style="width:100%">
+        <thead>
+            <tr>
                 <th>Marca</th>
                 <th>Modelo</th>
                 <th>Procesador</th>
                 <th>RAM</th>
                 <th>Tarjeta de video</th>
                 <th>Disco</th>
-                <th>Disco</th>
+                <th>Precio</th>
+                <th></th>
             </tr>
         </thead>
         <tbody>
             <tr>
                 <td>HP</td>
-                <td>System Architect</td>
-                <td>Edinburgh</td>
-                <td>61</td>
-                <td>2011/04/25</td>
+                <td>Spectre X360</td>
+                <td>Intel® Core™ i5</td>
+                <td>8GB</td>
+                <td>Nvidia RTX 2070</td>
+                <td>HDD</td>
                 <td>$320,800</td>
-                <td>$320,800</td>
+                <td class="py-1">
+                    <div class="d-flex justify-content-around">
+                        <button type="button" class="btn btn-sm btn-outline-secondary px-1 fs-6"><i class="fas fa-pen"></i></button>
+                        <button type="button" class="btn btn-sm btn-outline-danger px-1 fs-5"><i class="far fa-trash-alt"></i></button>
+                    </div>
+                </td>
             </tr>
             <tr>
                 <td>Asus</td>
-                <td>Accountant</td>
-                <td>Tokyo</td>
-                <td>63</td>
-                <td>2011/07/25</td>
-                <td>$170,750</td>
-                <td>$320,800</td>
+                <td>ZenBook Duo</td>
+                <td>Intel® Core™ i9</td>
+                <td>16GB</td>
+                <td>Nvidia GTX 1050 Ti 4GB</td>
+                <td>SSD</td>
+                <td>$420,000</td>
+                <td class="py-1">
+                    <div class="d-flex justify-content-around">
+                        <button type="button" class="btn btn-sm btn-outline-secondary px-1 fs-6"><i class="fas fa-pen"></i></button>
+                        <button type="button" class="btn btn-sm btn-outline-danger px-1 fs-5"><i class="far fa-trash-alt"></i></button>
+                    </div>
+                </td>
             </tr>
             <tr>
                 <td>Apple</td>
@@ -216,111 +229,167 @@
                 <td>8GB</td>
                 <td>AMD Radeon Pro 5600M</td>
                 <td>SSD</td>
-                <td>$320,800</td>
+                <td>$650,800</td>
+                <td class="py-1">
+                    <div class="d-flex justify-content-around">
+                        <button type="button" class="btn btn-sm btn-outline-secondary px-1 fs-6"><i class="fas fa-pen"></i></button>
+                        <button type="button" class="btn btn-sm btn-outline-danger px-1 fs-5"><i class="far fa-trash-alt"></i></button>
+                    </div>
+                </td>
             </tr>
             <tr>
                 <td>Dell</td>
-                <td>Senior Javascript Developer</td>
-                <td>Edinburgh</td>
-                <td>22</td>
-                <td>2012/03/29</td>
-                <td>$433,060</td>
-                <td>$320,800</td>
+                <td>Inspiron 15.6</td>
+                <td>Intel® Core™ i5</td>
+                <td>4GB</td>
+                <td>Integrada</td>
+                <td>HDD</td>
+                <td>$370,200</td>
+                <td class="py-1">
+                    <div class="d-flex justify-content-around">
+                        <button type="button" class="btn btn-sm btn-outline-secondary px-1 fs-6"><i class="fas fa-pen"></i></button>
+                        <button type="button" class="btn btn-sm btn-outline-danger px-1 fs-5"><i class="far fa-trash-alt"></i></button>
+                    </div>
+                </td>
             </tr>
             <tr>
                 <td>Acer</td>
-                <td>Accountant</td>
-                <td>Tokyo</td>
-                <td>33</td>
-                <td>2008/11/28</td>
-                <td>$162,700</td>
-                <td>$320,800</td>
+                <td>Acer Aspire 3</td>
+                <td>Intel® Core™ i3</td>
+                <td>16GB</td>
+                <td>Nvidia GTX 4GB</td>
+                <td>SSD</td>
+                <td>$520,200</td>
+                <td class="py-1">
+                    <div class="d-flex justify-content-around">
+                        <button type="button" class="btn btn-sm btn-outline-secondary px-1 fs-6"><i class="fas fa-pen"></i></button>
+                        <button type="button" class="btn btn-sm btn-outline-danger px-1 fs-5"><i class="far fa-trash-alt"></i></button>
+                    </div>
+                </td>
             </tr>
             <tr>
                 <td>Alienware</td>
-                <td>Integration Specialist</td>
-                <td>New York</td>
-                <td>61</td>
-                <td>2012/12/02</td>
-                <td>$372,000</td>
-                <td>$320,800</td>
+                <td>Alienware 17 </td>
+                <td>Intel® Core™ i9</td>
+                <td>8GB</td>
+                <td>Nvidia GTX 1060 6GB</td>
+                <td>SSD</td>
+                <td>$770,300</td>
+                <td class="py-1">
+                    <div class="d-flex justify-content-around">
+                        <button type="button" class="btn btn-sm btn-outline-secondary px-1 fs-6"><i class="fas fa-pen"></i></button>
+                        <button type="button" class="btn btn-sm btn-outline-danger px-1 fs-5"><i class="far fa-trash-alt"></i></button>
+                    </div>
+                </td>
             </tr>
             <tr>
                 <td>Toshiba</td>
-                <td>Sales Assistant</td>
-                <td>San Francisco</td>
-                <td>59</td>
-                <td>2012/08/06</td>
-                <td>$137,500</td>
-                <td>$320,800</td>
+                <td>Satellite Pro L500</td>
+                <td>Intel® Core™ i7</td>
+                <td>4GB</td>
+                <td>Integrada</td>
+                <td>HDD</td>
+                <td>$320,000</td>
+                <td class="py-1">
+                    <div class="d-flex justify-content-around">
+                        <button type="button" class="btn btn-sm btn-outline-secondary px-1 fs-6"><i class="fas fa-pen"></i></button>
+                        <button type="button" class="btn btn-sm btn-outline-danger px-1 fs-5"><i class="far fa-trash-alt"></i></button>
+                    </div>
+                </td>
             </tr>
             <tr>
                 <td>Samsung</td>
-                <td>Integration Specialist</td>
-                <td>Tokyo</td>
-                <td>55</td>
-                <td>2010/10/14</td>
-                <td>$327,900</td>
-                <td>$320,800</td>
+                <td>Chromebook Plus V2</td>
+                <td>Intel® Core™ i5</td>
+                <td>8GB</td>
+                <td>Nvidia GTX 1050 3GB</td>
+                <td>HDD</td>
+                <td>$420,700</td>
+                <td class="py-1">
+                    <div class="d-flex justify-content-around">
+                        <button type="button" class="btn btn-sm btn-outline-secondary px-1 fs-6"><i class="fas fa-pen"></i></button>
+                        <button type="button" class="btn btn-sm btn-outline-danger px-1 fs-5"><i class="far fa-trash-alt"></i></button>
+                    </div>
+                </td>
             </tr>
             <tr>
                 <td>MSI</td>
-                <td>Javascript Developer</td>
-                <td>San Francisco</td>
-                <td>39</td>
-                <td>2009/09/15</td>
-                <td>$205,500</td>
-                <td>$320,800</td>
+                <td>GT Titan series</td>
+                <td>Intel® Core™ i7</td>
+                <td>16GB</td>
+                <td>Nvidia RTX 3060 EAGLE OC 12 GB</td>
+                <td>SSD</td>
+                <td>$820,700</td>
+                <td class="py-1">
+                    <div class="d-flex justify-content-around">
+                        <button type="button" class="btn btn-sm btn-outline-secondary px-1 fs-6"><i class="fas fa-pen"></i></button>
+                        <button type="button" class="btn btn-sm btn-outline-danger px-1 fs-5"><i class="far fa-trash-alt"></i></button>
+                    </div>
+                </td>
             </tr>
             <tr>
                 <td>Lenovo</td>
-                <td>Javascript Developer</td>
-                <td>San Francisco</td>
-                <td>39</td>
-                <td>2009/09/15</td>
-                <td>$205,500</td>
-                <td>$320,800</td>
+                <td>Lenovo Legion Y540</td>
+                <td>Intel® Core™ i5</td>
+                <td>4GB</td>
+                <td>Nvidia GTX 1650 4GB</td>
+                <td>HDD</td>
+                <td>$360,000</td>
+                <td class="py-1">
+                    <div class="d-flex justify-content-around">
+                        <button type="button" class="btn btn-sm btn-outline-secondary px-1 fs-6"><i class="fas fa-pen"></i></button>
+                        <button type="button" class="btn btn-sm btn-outline-danger px-1 fs-5"><i class="far fa-trash-alt"></i></button>
+                    </div>
+                </td>
             </tr>
             <tr>
                 <td>Toshiba</td>
-                <td>Sales Assistant</td>
-                <td>San Francisco</td>
-                <td>59</td>
-                <td>2012/08/06</td>
-                <td>$137,500</td>
-                <td>$320,800</td>
+                <td>Portégé X20W-E</td>
+                <td>Intel® Core™ i5</td>
+                <td>8GB</td>
+                <td>Nvidia GTX 1050 Ti 4GB</td>
+                <td>SSD</td>
+                <td>$350,200</td>
+                <td class="py-1">
+                    <div class="d-flex justify-content-around">
+                        <button type="button" class="btn btn-sm btn-outline-secondary px-1 fs-6"><i class="fas fa-pen"></i></button>
+                        <button type="button" class="btn btn-sm btn-outline-danger px-1 fs-5"><i class="far fa-trash-alt"></i></button>
+                    </div>
+                </td>
             </tr>
             <tr>
                 <td>Samsung</td>
-                <td>Integration Specialist</td>
-                <td>Tokyo</td>
-                <td>55</td>
-                <td>2010/10/14</td>
-                <td>$327,900</td>
-                <td>$320,800</td>
+                <td>Galaxy Z Fold 2</td>
+                <td>Intel® Core™ i3</td>
+                <td>16GB</td>
+                <td>Integrada</td>
+                <td>HDD</td>
+                <td>$420,900</td>
+                <td class="py-1">
+                    <div class="d-flex justify-content-around">
+                        <button type="button" class="btn btn-sm btn-outline-secondary px-1 fs-6"><i class="fas fa-pen"></i></button>
+                        <button type="button" class="btn btn-sm btn-outline-danger px-1 fs-5"><i class="far fa-trash-alt"></i></button>
+                    </div>
+                </td>
             </tr>
             <tr>
                 <td>MSI</td>
-                <td>Javascript Developer</td>
-                <td>San Francisco</td>
-                <td>39</td>
-                <td>2009/09/15</td>
-                <td>$205,500</td>
-                <td>$320,800</td>
+                <td>Serie GP Leopard</td>
+                <td>Intel® Core™ i7</td>
+                <td>8GB</td>
+                <td>Nvidia GTX 2060</td>
+                <td>SSD</td>
+                <td>$700,800</td>
+                <td class="py-1">
+                    <div class="d-flex justify-content-around">
+                        <button type="button" class="btn btn-sm btn-outline-secondary px-1 fs-6"><i class="fas fa-pen"></i></button>
+                        <button type="button" class="btn btn-sm btn-outline-danger px-1 fs-5"><i class="far fa-trash-alt"></i></button>
+                    </div>
+                </td>
             </tr>
             
         </tbody>
-        <tfoot>
-            <tr>
-                <th>Name</th>
-                <th>Position</th>
-                <th>Office</th>
-                <th>Age</th>
-                <th>Start date</th>
-                <th>Salary</th>
-                <td>$320,800</td>
-            </tr>
-        </tfoot>
+        
     </table>
 </div>
 
