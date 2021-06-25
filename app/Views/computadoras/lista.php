@@ -202,8 +202,8 @@
                 <td>$320,800</td>
                 <td class="py-1">
                     <div class="d-flex justify-content-around">
-                        <button type="button" class="btn btn-sm btn-outline-secondary px-1 fs-6"><i class="fas fa-pen"></i></button>
-                        <button type="button" class="btn btn-sm btn-outline-danger px-1 fs-5"><i class="far fa-trash-alt"></i></button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary px-1 fs-6" data-bs-toggle="tooltip" data-bs-placement="bottom" title="editar"><i class="fas fa-pen"></i></button>
+                        <button type="button" class="btn btn-sm btn-outline-danger px-1 fs-5" data-bs-toggle="tooltip" data-bs-placement="bottom" title="borrar"><i class="far fa-trash-alt"></i></button>
                     </div>
                 </td>
             </tr>
@@ -217,8 +217,8 @@
                 <td>$420,000</td>
                 <td class="py-1">
                     <div class="d-flex justify-content-around">
-                        <button type="button" class="btn btn-sm btn-outline-secondary px-1 fs-6"><i class="fas fa-pen"></i></button>
-                        <button type="button" class="btn btn-sm btn-outline-danger px-1 fs-5"><i class="far fa-trash-alt"></i></button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary px-1 fs-6" data-bs-toggle="tooltip" data-bs-placement="bottom" title="editar"><i class="fas fa-pen"></i></button>
+                        <button type="button" class="btn btn-sm btn-outline-danger px-1 fs-5" data-bs-toggle="tooltip" data-bs-placement="bottom" title="borrar"><i class="far fa-trash-alt"></i></button>
                     </div>
                 </td>
             </tr>
@@ -232,8 +232,8 @@
                 <td>$650,800</td>
                 <td class="py-1">
                     <div class="d-flex justify-content-around">
-                        <button type="button" class="btn btn-sm btn-outline-secondary px-1 fs-6"><i class="fas fa-pen"></i></button>
-                        <button type="button" class="btn btn-sm btn-outline-danger px-1 fs-5"><i class="far fa-trash-alt"></i></button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary px-1 fs-6" data-bs-toggle="tooltip" data-bs-placement="bottom" title="editar"><i class="fas fa-pen"></i></button>
+                        <button type="button" class="btn btn-sm btn-outline-danger px-1 fs-5" data-bs-toggle="tooltip" data-bs-placement="bottom" title="borrar"><i class="far fa-trash-alt"></i></button>
                     </div>
                 </td>
             </tr>
@@ -247,8 +247,8 @@
                 <td>$370,200</td>
                 <td class="py-1">
                     <div class="d-flex justify-content-around">
-                        <button type="button" class="btn btn-sm btn-outline-secondary px-1 fs-6"><i class="fas fa-pen"></i></button>
-                        <button type="button" class="btn btn-sm btn-outline-danger px-1 fs-5"><i class="far fa-trash-alt"></i></button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary px-1 fs-6" data-bs-toggle="tooltip" data-bs-placement="bottom" title="editar"><i class="fas fa-pen"></i></button>
+                        <button type="button" class="btn btn-sm btn-outline-danger px-1 fs-5" data-bs-toggle="tooltip" data-bs-placement="bottom" title="borrar"><i class="far fa-trash-alt"></i></button>
                     </div>
                 </td>
             </tr>
@@ -262,8 +262,8 @@
                 <td>$520,200</td>
                 <td class="py-1">
                     <div class="d-flex justify-content-around">
-                        <button type="button" class="btn btn-sm btn-outline-secondary px-1 fs-6"><i class="fas fa-pen"></i></button>
-                        <button type="button" class="btn btn-sm btn-outline-danger px-1 fs-5"><i class="far fa-trash-alt"></i></button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary px-1 fs-6" data-bs-toggle="tooltip" data-bs-placement="bottom" title="editar"><i class="fas fa-pen"></i></button>
+                        <button type="button" class="btn btn-sm btn-outline-danger px-1 fs-5" data-bs-toggle="tooltip" data-bs-placement="bottom" title="borrar"><i class="far fa-trash-alt"></i></button>
                     </div>
                 </td>
             </tr>
@@ -277,8 +277,8 @@
                 <td>$770,300</td>
                 <td class="py-1">
                     <div class="d-flex justify-content-around">
-                        <button type="button" class="btn btn-sm btn-outline-secondary px-1 fs-6"><i class="fas fa-pen"></i></button>
-                        <button type="button" class="btn btn-sm btn-outline-danger px-1 fs-5"><i class="far fa-trash-alt"></i></button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary px-1 fs-6" data-bs-toggle="tooltip" data-bs-placement="bottom" title="editar"><i class="fas fa-pen"></i></button>
+                        <button type="button" class="btn btn-sm btn-outline-danger px-1 fs-5" data-bs-toggle="tooltip" data-bs-placement="bottom" title="borrar"><i class="far fa-trash-alt"></i></button>
                     </div>
                 </td>
             </tr>
@@ -292,8 +292,8 @@
                 <td>$320,000</td>
                 <td class="py-1">
                     <div class="d-flex justify-content-around">
-                        <button type="button" class="btn btn-sm btn-outline-secondary px-1 fs-6"><i class="fas fa-pen"></i></button>
-                        <button type="button" class="btn btn-sm btn-outline-danger px-1 fs-5"><i class="far fa-trash-alt"></i></button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary px-1 fs-6" data-bs-toggle="tooltip" data-bs-placement="bottom" title="editar"><i class="fas fa-pen"></i></button>
+                        <button type="button" class="btn btn-sm btn-outline-danger px-1 fs-5" data-bs-toggle="tooltip" data-bs-placement="bottom" title="borrar"><i class="far fa-trash-alt"></i></button>
                     </div>
                 </td>
             </tr>
@@ -307,8 +307,8 @@
                 <td>$420,700</td>
                 <td class="py-1">
                     <div class="d-flex justify-content-around">
-                        <button type="button" class="btn btn-sm btn-outline-secondary px-1 fs-6"><i class="fas fa-pen"></i></button>
-                        <button type="button" class="btn btn-sm btn-outline-danger px-1 fs-5"><i class="far fa-trash-alt"></i></button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary px-1 fs-6" data-bs-toggle="tooltip" data-bs-placement="bottom" title="editar"><i class="fas fa-pen"></i></button>
+                        <button type="button" class="btn btn-sm btn-outline-danger px-1 fs-5" data-bs-toggle="tooltip" data-bs-placement="bottom" title="borrar"><i class="far fa-trash-alt"></i></button>
                     </div>
                 </td>
             </tr>
@@ -322,8 +322,8 @@
                 <td>$820,700</td>
                 <td class="py-1">
                     <div class="d-flex justify-content-around">
-                        <button type="button" class="btn btn-sm btn-outline-secondary px-1 fs-6"><i class="fas fa-pen"></i></button>
-                        <button type="button" class="btn btn-sm btn-outline-danger px-1 fs-5"><i class="far fa-trash-alt"></i></button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary px-1 fs-6" data-bs-toggle="tooltip" data-bs-placement="bottom" title="editar"><i class="fas fa-pen"></i></button>
+                        <button type="button" class="btn btn-sm btn-outline-danger px-1 fs-5" data-bs-toggle="tooltip" data-bs-placement="bottom" title="borrar"><i class="far fa-trash-alt"></i></button>
                     </div>
                 </td>
             </tr>
@@ -337,8 +337,8 @@
                 <td>$360,000</td>
                 <td class="py-1">
                     <div class="d-flex justify-content-around">
-                        <button type="button" class="btn btn-sm btn-outline-secondary px-1 fs-6"><i class="fas fa-pen"></i></button>
-                        <button type="button" class="btn btn-sm btn-outline-danger px-1 fs-5"><i class="far fa-trash-alt"></i></button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary px-1 fs-6" data-bs-toggle="tooltip" data-bs-placement="bottom" title="editar"><i class="fas fa-pen"></i></button>
+                        <button type="button" class="btn btn-sm btn-outline-danger px-1 fs-5" data-bs-toggle="tooltip" data-bs-placement="bottom" title="borrar"><i class="far fa-trash-alt"></i></button>
                     </div>
                 </td>
             </tr>
@@ -352,8 +352,8 @@
                 <td>$350,200</td>
                 <td class="py-1">
                     <div class="d-flex justify-content-around">
-                        <button type="button" class="btn btn-sm btn-outline-secondary px-1 fs-6"><i class="fas fa-pen"></i></button>
-                        <button type="button" class="btn btn-sm btn-outline-danger px-1 fs-5"><i class="far fa-trash-alt"></i></button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary px-1 fs-6" data-bs-toggle="tooltip" data-bs-placement="bottom" title="editar"><i class="fas fa-pen"></i></button>
+                        <button type="button" class="btn btn-sm btn-outline-danger px-1 fs-5" data-bs-toggle="tooltip" data-bs-placement="bottom" title="borrar"><i class="far fa-trash-alt"></i></button>
                     </div>
                 </td>
             </tr>
@@ -367,8 +367,8 @@
                 <td>$420,900</td>
                 <td class="py-1">
                     <div class="d-flex justify-content-around">
-                        <button type="button" class="btn btn-sm btn-outline-secondary px-1 fs-6"><i class="fas fa-pen"></i></button>
-                        <button type="button" class="btn btn-sm btn-outline-danger px-1 fs-5"><i class="far fa-trash-alt"></i></button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary px-1 fs-6" data-bs-toggle="tooltip" data-bs-placement="bottom" title="editar"><i class="fas fa-pen"></i></button>
+                        <button type="button" class="btn btn-sm btn-outline-danger px-1 fs-5" data-bs-toggle="tooltip" data-bs-placement="bottom" title="borrar"><i class="far fa-trash-alt"></i></button>
                     </div>
                 </td>
             </tr>
@@ -382,8 +382,8 @@
                 <td>$700,800</td>
                 <td class="py-1">
                     <div class="d-flex justify-content-around">
-                        <button type="button" class="btn btn-sm btn-outline-secondary px-1 fs-6"><i class="fas fa-pen"></i></button>
-                        <button type="button" class="btn btn-sm btn-outline-danger px-1 fs-5"><i class="far fa-trash-alt"></i></button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary px-1 fs-6" data-bs-toggle="tooltip" data-bs-placement="bottom" title="editar"><i class="fas fa-pen"></i></button>
+                        <button type="button" class="btn btn-sm btn-outline-danger px-1 fs-5" data-bs-toggle="tooltip" data-bs-placement="bottom" title="borrar"><i class="far fa-trash-alt"></i></button>
                     </div>
                 </td>
             </tr>

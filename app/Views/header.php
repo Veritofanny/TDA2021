@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="<?php echo base_url('assets/fontawesome/css/all.min.css') ?>">
     <!--<link rel="stylesheet" href="<?php echo base_url('assets/css/signin.css') ?>">-->
     <link rel="stylesheet" href="<?php echo base_url('assets/css/estilos.css') ?>">
-    <link rel="stylesheet" href="<?php echo base_url('assets/css/sidebars.css') ?>">  
+    <link rel="stylesheet" href="<?php echo base_url('assets/css/sidebars.css') ?>"> 
 </head>
 
 <body>
@@ -50,17 +50,18 @@
                             </button>
                             <div class="collapse" id="home-collapse">
                                 <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                                    <li><a href="<?php echo base_url('public/Portada/docente_Perfil'); ?>" class="link-dark rounded">Perfil</a></li>
-                                    <li><a href="<?php echo base_url('public/Portada/docente_Configuraciones'); ?>" class="link-dark rounded">Configuraciones</a></li>
-                                    <li><a href="<?php echo base_url('public/Portada/docente_General'); ?>" class="link-dark rounded">General</a></li>
-                                    <li><a href="<?php echo base_url('public/Portada/docente_Apuntes'); ?>" class="link-dark rounded">Apuntes</a></li>
-                                    <li><a href="<?php echo base_url('public/Portada/docente_Formulario'); ?>" class="link-dark rounded">Formulario</a></li>
-                                    <li><a href="<?php echo base_url('public/Portada/docente_Tablas'); ?>" class="link-dark rounded">Tablas</a></li>
-                                    <li><a href="<?php echo base_url('public/Portada/docente_Modals'); ?>" class="link-dark rounded">Modals</a></li>
-                                    <li><a href="<?php echo base_url('public/Portada/docente_Tipografia'); ?>" class="link-dark rounded">Tipografia</a></li>
-                                    <li><a href="<?php echo base_url('public/Portada/docente_Iconos'); ?>" class="link-dark rounded">Iconos</a></li>
-                                    <li><a href="<?php echo base_url('public/Portada/docente_Graficos'); ?>" class="link-dark rounded">Graficos</a></li>
-                                    <li><a href="<?php echo base_url('public/Portada/docente_Mapas'); ?>" class="link-dark rounded">Mapas</a></li>
+                                    <li><a href="<?php echo base_url('public/Docente/formulario'); ?>" class="link-dark rounded">1. Formulario</a></li>
+                                    <li><a href="<?php echo base_url('public/Docente/formulario'); ?>" class="link-dark rounded">2. Lista</a></li>
+                                    <li><a href="<?php echo base_url('public/Docente/perfil'); ?>" class="link-dark rounded">Perfil</a></li>
+                                    <li><a href="<?php echo base_url('public/Docente/configuraciones'); ?>" class="link-dark rounded">Configuraciones</a></li>
+                                    <li><a href="<?php echo base_url('public/Docente/general'); ?>" class="link-dark rounded">General</a></li>
+                                    <li><a href="<?php echo base_url('public/Docente/apuntes'); ?>" class="link-dark rounded">Apuntes</a></li>
+                                    <li><a href="<?php echo base_url('public/Docente/tablas'); ?>" class="link-dark rounded">Tablas</a></li>
+                                    <li><a href="<?php echo base_url('public/Docente/modals'); ?>" class="link-dark rounded">Modals</a></li>
+                                    <li><a href="<?php echo base_url('public/Docente/tipografia'); ?>" class="link-dark rounded">Tipografia</a></li>
+                                    <li><a href="<?php echo base_url('public/Docente/iconos'); ?>" class="link-dark rounded">Iconos</a></li>
+                                    <li><a href="<?php echo base_url('public/Docente/graficos'); ?>" class="link-dark rounded">Graficos</a></li>
+                                    <li><a href="<?php echo base_url('public/Docente/mapas'); ?>" class="link-dark rounded">Mapas</a></li>
                                 </ul>
                             </div>
                         </li>
@@ -68,13 +69,37 @@
                         <!--Productos-->
 
                         <li class="mb-1">
-                            <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="true">
+                            <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#productos-collapse" aria-expanded="true">
                                 Productos
                             </button>
-                            <div class="collapse show" id="home-collapse">
+                            <div class="collapse show" id="productos-collapse">
                                 <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
                                     <li><a href="<?php echo base_url('public/Productos/formulario'); ?>" class="link-dark rounded">Formulario</a></li>
                                     <li><a href="<?php echo base_url('public/productos/tabla'); ?>" class="link-dark rounded">Tabla</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                       
+
+                        <li class="mb-1">
+                            <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#cliente-collapse" aria-expanded="false">
+                                Clientes
+                            </button>
+                            <div class="collapse show" id="cliente-collapse">
+                                <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                    <li><a href="<?php echo base_url('public/Cliente/formulario'); ?>" class="link-dark rounded">Formulario</a></li>
+                                    <li><a href="<?php echo base_url('public/Cliente/listado'); ?>" class="link-dark rounded">Lista</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="mb-1">
+                            <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#computadoras-collapse" aria-expanded="false">
+                                Computadoras
+                            </button>
+                            <div class="collapse" id="computadoras-collapse">
+                                <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                    <li><a href="<?php echo base_url('public/Computadoras/formulario'); ?>" class="link-dark rounded">Formulario</a></li>
+                                    <li><a href="<?php echo base_url('public/Computadoras/lista'); ?>" class="link-dark rounded">Lista</a></li>
                                 </ul>
                             </div>
                         </li>
@@ -90,26 +115,25 @@
                                 </ul>
                             </div>
                         </li>
-
                         <li class="mb-1">
-                            <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#cliente-collapse" aria-expanded="false">
-                                Clientes
+                            <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#muebles-collapse" aria-expanded="false">
+                                Muebles
                             </button>
-                            <div class="collapse" id="cliente-collapse">
+                            <div class="collapse" id="muebles-collapse">
                                 <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                                    <li><a href="<?php echo base_url('public/Portada/formularioCliente'); ?>" class="link-dark rounded">Formulario</a></li>
-                                    <li><a href="<?php echo base_url('public/Portada/listadoCliente'); ?>" class="link-dark rounded">Lista</a></li>
+                                    <li><a href="<?php echo base_url('public/Portada/formulariomuebles'); ?>" class="link-dark rounded">Formulario</a></li>
+                                    <li><a href="<?php echo base_url('public/Portada/tablamuebles'); ?>" class="link-dark rounded">Lista</a></li>
                                 </ul>
                             </div>
                         </li>
                         <li class="mb-1">
-                            <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#computadoras-collapse" aria-expanded="false">
-                                Computadoras
+                            <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#ropa-collapse" aria-expanded="false">
+                                Ropas
                             </button>
-                            <div class="collapse" id="computadoras-collapse">
+                            <div class="collapse" id="ropa-collapse">
                                 <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                                    <li><a href="<?php echo base_url('public/Computadoras/formulario'); ?>" class="link-dark rounded">Formulario</a></li>
-                                    <li><a href="<?php echo base_url('public/Computadoras/lista'); ?>" class="link-dark rounded">Lista</a></li>
+                                    <li><a href="<?php echo base_url('public/Portada/Registrar_ropa'); ?>" class="link-dark rounded">Formulario</a></li>
+                                    <li><a href="<?php echo base_url('public/Portada/Lista_Ropa'); ?>" class="link-dark rounded">Lista</a></li>
                                 </ul>
                             </div>
                         </li>
@@ -129,6 +153,7 @@
                         </li>
                     </ul>
                 </div>
+                
             </nav>
 
             <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
