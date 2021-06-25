@@ -11,11 +11,15 @@
     <link rel="stylesheet" href="<?php echo base_url('assets/fontawesome/css/all.min.css') ?>">
     <!--<link rel="stylesheet" href="<?php echo base_url('assets/css/signin.css') ?>">-->
     <link rel="stylesheet" href="<?php echo base_url('assets/css/estilos.css') ?>">
+<<<<<<< HEAD
     <link rel="stylesheet" href="<?php echo base_url('assets/css/sidebars.css') ?>">
 
 
     <link rel="stylesheet" href="<?php echo base_url('assets/css/theme.css'); ?>">
 
+=======
+    <link rel="stylesheet" href="<?php echo base_url('assets/css/sidebars.css') ?>"> 
+>>>>>>> ecc7bcf0c1dd7dca68e84a631579a0717621585f
 </head>
 
 
@@ -74,10 +78,10 @@
                         <!--Productos-->
 
                         <li class="mb-1">
-                            <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="true">
+                            <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#productos-collapse" aria-expanded="true">
                                 Productos
                             </button>
-                            <div class="collapse show" id="home-collapse">
+                            <div class="collapse show" id="productos-collapse">
                                 <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
                                     <li><a href="<?php echo base_url('public/Productos/formulario'); ?>" class="link-dark rounded">Formulario</a></li>
                                     <li><a href="<?php echo base_url('public/productos/tabla'); ?>" class="link-dark rounded">Tabla</a></li>
@@ -90,10 +94,10 @@
                             <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#cliente-collapse" aria-expanded="false">
                                 Clientes
                             </button>
-                            <div class="collapse" id="cliente-collapse">
+                            <div class="collapse show" id="cliente-collapse">
                                 <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                                    <li><a href="<?php echo base_url('public/Portada/formularioCliente'); ?>" class="link-dark rounded">Formulario</a></li>
-                                    <li><a href="<?php echo base_url('public/Portada/listadoCliente'); ?>" class="link-dark rounded">Lista</a></li>
+                                    <li><a href="<?php echo base_url('public/Cliente/formulario'); ?>" class="link-dark rounded">Formulario</a></li>
+                                    <li><a href="<?php echo base_url('public/Cliente/listado'); ?>" class="link-dark rounded">Lista</a></li>
                                 </ul>
                             </div>
                         </li>
@@ -103,8 +107,8 @@
                             </button>
                             <div class="collapse" id="computadoras-collapse">
                                 <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                                    <li><a href="<?php echo base_url('public/Portada/formcomp'); ?>" class="link-dark rounded">Formulario</a></li>
-                                    <li><a href="<?php echo base_url('public/Portada/listcomp'); ?>" class="link-dark rounded">Lista</a></li>
+                                    <li><a href="<?php echo base_url('public/Computadoras/formulario'); ?>" class="link-dark rounded">Formulario</a></li>
+                                    <li><a href="<?php echo base_url('public/Computadoras/lista'); ?>" class="link-dark rounded">Lista</a></li>
                                 </ul>
                             </div>
                         </li>
@@ -117,6 +121,28 @@
                                     <li><a href="<?php echo base_url('public/Portada/celulares_Inicio'); ?>" class="link-dark rounded">INICIO</a></li>
                                     <li><a href="<?php echo base_url('public/Portada/celulares_Formulario'); ?>" class="link-dark rounded">FORMULARIO</a></li>
                                     <li><a href="<?php echo base_url('public/Portada/celulares_Tablas'); ?>" class="link-dark rounded">TABLA C.</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="mb-1">
+                            <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#muebles-collapse" aria-expanded="false">
+                                Muebles
+                            </button>
+                            <div class="collapse" id="muebles-collapse">
+                                <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                    <li><a href="<?php echo base_url('public/Portada/formulariomuebles'); ?>" class="link-dark rounded">Formulario</a></li>
+                                    <li><a href="<?php echo base_url('public/Portada/tablamuebles'); ?>" class="link-dark rounded">Lista</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="mb-1">
+                            <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#ropa-collapse" aria-expanded="false">
+                                Ropas
+                            </button>
+                            <div class="collapse" id="ropa-collapse">
+                                <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                    <li><a href="<?php echo base_url('public/Portada/Registrar_ropa'); ?>" class="link-dark rounded">Formulario</a></li>
+                                    <li><a href="<?php echo base_url('public/Portada/Lista_Ropa'); ?>" class="link-dark rounded">Lista</a></li>
                                 </ul>
                             </div>
                         </li>
@@ -136,6 +162,7 @@
                         </li>
                     </ul>
                 </div>
+                
             </nav>
 
             <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">

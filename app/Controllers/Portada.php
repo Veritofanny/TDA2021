@@ -66,31 +66,7 @@ class Portada extends BaseController
 		echo view("registrarse");
 		echo view('footer');
 	}
-
-    public function formcomp()
-	{
-		echo view('header');
-		echo view("formcomp");
-		echo view('footer');
-	}
-    public function listcomp()
-	{
-		echo view('header');
-		echo view("listcomp");
-		echo view('footer');
-	}
     
-    public function formularioCliente(){
-        echo view('header');
-        echo view('formularioCliente');
-        echo view('footer');
-    }
-
-    public function listadoCliente(){
-        echo view('header');
-        echo view('listadoCliente');
-        echo view('footer');
-    }
 
     public function productos_form(){
         echo view('header');
@@ -110,6 +86,28 @@ class Portada extends BaseController
     public function celulares_Tablas(){
         echo view('header');
         echo view('celulares_Tablas');
+        echo view('footer');
+    }
+    public function Lista_Ropa()
+	{
+		echo view('header');
+		echo view('Lista_Ropa');
+        echo view('footer');
+	}
+    public function Registrar_ropa()
+	{
+		echo view('header');
+		echo view('Registrar_ropa');
+        echo view('footer');
+	}
+    public function tablamuebles(){
+        echo view('header');
+        echo view('tablamuebles');
+        echo view('footer');
+    }
+    public function formulariomuebles(){
+        echo view('header');
+        echo view('formulariomuebles');
         echo view('footer');
     }
 }
