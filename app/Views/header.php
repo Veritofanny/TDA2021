@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="<?php echo base_url('assets/fontawesome/css/all.min.css') ?>">
     <!--<link rel="stylesheet" href="<?php echo base_url('assets/css/signin.css') ?>">-->
     <link rel="stylesheet" href="<?php echo base_url('assets/css/estilos.css') ?>">
-    <link rel="stylesheet" href="<?php echo base_url('assets/css/sidebars.css') ?>">  
+    <link rel="stylesheet" href="<?php echo base_url('assets/css/sidebars.css') ?>"> 
 </head>
 
 <body>
@@ -68,10 +68,10 @@
                         <!--Productos-->
 
                         <li class="mb-1">
-                            <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="true">
+                            <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#productos-collapse" aria-expanded="true">
                                 Productos
                             </button>
-                            <div class="collapse show" id="home-collapse">
+                            <div class="collapse show" id="productos-collapse">
                                 <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
                                     <li><a href="<?php echo base_url('public/Productos/formulario'); ?>" class="link-dark rounded">Formulario</a></li>
                                     <li><a href="<?php echo base_url('public/productos/tabla'); ?>" class="link-dark rounded">Tabla</a></li>
