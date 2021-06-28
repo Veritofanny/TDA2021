@@ -71,7 +71,17 @@
                                 </ul>
                             </div>
                         </li>
-
+                        <li class="mb-1">
+                            <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="true">
+                                Asignaturas
+                                </button>
+                            <div class="collapse show" id="productos-collapse">
+                                <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                    <li><a href="<?php echo base_url('public/asignaturas/formulario'); ?>" class="link-dark rounded">Registro </a></li>
+                                    <li><a href="<?php echo base_url('public/asignaturas/tabla'); ?>" class="link-dark rounded">Docentes</a></li>
+                                </ul>
+                            </div>
+                        </li>
                         <!--Productos-->
 
                         <li class="mb-1">
